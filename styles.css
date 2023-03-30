@@ -1,3 +1,8 @@
+* {
+    background-color: bisque;
+}
+
+
 html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -5,11 +10,15 @@ html {
 button{
     width: 100px;
     height: 50px;
-    background-color: cadetblue;
+    background-color: rgb(38, 0, 255);
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
 }
 
 h2{
-    color: cadetblue;
+    color: rgb(38, 0, 255);
 }
 
 p{
@@ -26,5 +35,5 @@ input{
     border: 1px;
     border-color: black;
     border-style: solid;
-    color: bisque;
+    color: rgb(38, 0, 255);
 }
